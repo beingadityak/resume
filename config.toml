@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://beingadityak.com/resume"
+baseURL = "https://resume.beingadityak.com"
 languageCode = "en"
 title = "Aditya Krishnakumar - Resume"
 theme = "hugo-devresume-theme"
