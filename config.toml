@@ -1,0 +1,260 @@
+# Page settings
+
+baseURL = "https://beingadityak.com/resume"
+languageCode = "en"
+title = "Aditya Krishnakumar - Resume"
+theme = "hugo-devresume-theme"
+
+publishDir = "docs"
+
+[params]
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Aditya Krishnakumar"
+        tagline = "DevOps Engineer"
+        avatar = "aditya.jpg"
+
+    [params.contact]
+        enable = true
+        location = "Ahmedabad, Gujarat, India"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:+919825024057"
+        text = "(+91) 98250 24057"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:me@beingadityak.com"
+        text = "me@beingadityak.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "//beingadityak.com"
+        text = "beingadityak.com"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Python, Bash"
+        [[params.skills.list.items]]
+        details = "Terraform, Packer, Docker"
+        [[params.skills.list.items]]
+        details = "Ansible, Kubernetes"
+        [[params.skills.list.items]]
+        details = "TravisCI, Github Actions, Bitbucket Pipelines"
+        [[params.skills.list.items]]
+        details = "EC2, S3, Lambda, API Gateway, AutoScaling, SES and many more AWS services"
+        [[params.skills.list.items]]
+        details = "Lead and deliver complex software systems"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "B.Tech in Computer Engineering"
+        university = "Dharmsinh Desai University, Nadiad, Gujarat"
+        dates = "2014 - 2018"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+        [[params.languages.list]]
+        name = "Hindi"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Gujarati"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Malayalam"
+        level = "Limited"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Cycling"
+        [[params.interests.list]]
+        name = "Gymming"
+        [[params.interests.list]]
+        name = "Travelling"
+
+    [params.summary]
+        enable = true
+        text = "Experienced DevOps Engineer with a demonstrated history of working in the IT and services industry. Skilled in Scripting, AWS, Ansible, Terraform, Docker. Strong IT professional with a Bachelor’s Degree focused in Computer Engineering from Dharmsinh Desai University, Nadiad. Passionate about learning new technologies especially related to Infrastructure automation tools and DevOps processes."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "DevOps Engineer"
+        dates = "May 2019 - Present"
+        company = "Intellimedia Networks"
+        details = "Got a field change from a T2-support CloudOps Engineer to DevOps Engineer. Performed a lot of RnD as well as support work for my internal as well as external customers. I learned a lot more from this organization about team management, project management and execution as well as improved communication skills. I was also fortunate to work with LiveU, one of the largest news broadcasting product-based firm based in US."
+        [[params.experience.list.items]]
+        details = "Worked majorly on the DevOps activities in LiveU, one of the largest news broadcasting product-based firm."
+        [[params.experience.list.items]]
+        details = "Worked with R&D teams based out of Israel and Ahmedabad, India."
+        [[params.experience.list.items]]
+        details = "Led the development and delivered an internal server creation tool, which reduced the time for creating the server from ~30 minutes (which was also prone to errors) to ~10 minutes. The tool also allows to create servers in multiple regions as well as in multiple AWS accounts."
+        [[params.experience.list.items]]
+        details = "Handled the server management for one of the components of a successful product from LiveU. The applications were developed mostly in Node.js"
+        [[params.experience.list.items]]
+        details = "Handled provisioning and system administration tasks for the web and database servers for the organization's other projects in AWS."
+        [[params.experience.list.items]]
+        details = "Created, optimized and managed CI/CD pipelines for projects developed in JavaScript (both front-end and back-end) as well as PHP in Bitbucket Pipelines for the deployment to AWS as well as non-AWS (Vultr) instances."
+        [[params.experience.list.items]]
+        details = "Redesigned the infrastructure for a 3-tier web application in AWS. Streamlined the development, deployment as well as monitoring and logging experiences on AWS with Elastic Beanstalk, AWS CloudWatch logs and Bitbucket Pipelines"
+        [[params.experience.list.items]]
+        details = "Achieved my other AWS associate and Professional as well as other Clouds' certifications such as Terraform, Microsoft, Google Cloud etc. along with my day-to-day work."
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "Apr 2018 - May 2019"
+        company = "Crest Data Systems"
+        details = "Continued with the same organization and accepted the full-time employee offer. Worked majorly on supporting Splunk Cloud, a SaaS offering by Splunk."
+        [[params.experience.list.items]]
+        details = "Worked majorly on maintenance and support of Splunk Cloud infrastructure."
+        [[params.experience.list.items]]
+        details = "Worked with Operations (NOC) and SRE teams distributed across APAC, Americas & EMEA regions for the support and maintenance of Splunk Cloud platform."
+        [[params.experience.list.items]]
+        details = "Performed updates as well as creation of 5 operational runbooks for the documentation and maintenance of systems and processes for using Ansible, Puppet & Terraform."
+        [[params.experience.list.items]]
+        details = "Involved in a major maintenance task which required me to work with other CloudOps Engineers to migrate the backing of the EBS volumes to the newer specification released by the team."
+        [[params.experience.list.items]]
+        details = "Created a maintenance helper script which helped the team members to perform checks on the Splunk Cloud instances whenever there is a maintenance notification from AWS Support regarding instance degradation."
+        [[params.experience.list.items]]
+        details = "Created multiple one-off scripts which helped the team in performing their day-to-day operations work."
+        [[params.experience.list.items]]
+        details = "Worked as a lead engineer in the 6 months of 'Infrastructure Automation Migration', serving 100+ customers."
+        [[params.experience.list.items]]
+        details = "Performed on-call operations for any escalations during migration."
+        [[params.experience.list.items]]
+        details = "Achieved my AWS Certified Solutions Architect & Cloud Practitioner certification along with my day-to-day work."
+
+
+        [[params.experience.list]]
+        title = "Software Intern"
+        dates = "Dec 2017 - Apr 2018"
+        company = "Crest Data Systems"
+        details = "This was my first ever software engineering job. I learned a lot about Cloud, DevOps and other tools and practices commonly used in the industry."
+        [[params.experience.list.items]]
+        details = "Created a few maintenance playbooks using Ansible for performing upgrades to a Splunk cluster deployed on an AWS environment."
+        [[params.experience.list.items]]
+        details = "Set up a stand-alone machine on AWS which is responsible for running the playbooks."
+        [[params.experience.list.items]]
+        details = "Learned more about the AWS Cloud & Ansible during this period."
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Terraform for OpenDistro"
+        tagline = "Terraform code for setting up OpenDistro nodes along with backup process using multiple AWS services such as EC2, ECS, ELB etc. as well as using KMS and SOPS for secrets management."
+
+        [[params.projects.list]]
+        title = "Terraform + CI/CD setup for a product"
+        tagline = "Created automation in Terraform for setting up a 3-tier application in AWS cloud as well as setting up CI/CD pipelines using GitHub Actions for the code."
+
+        [[params.projects.list]]
+        title = "CI/CD Pipelines for Node.js & PHP projects"
+        tagline = "Created CI/CD pipelines for a variety of projects for deployments to S3 & EC2 instances using TravisCI, AWS CodeDeploy & BitBucket Pipelines"
+
+        [[params.projects.list]]
+        title = "Automated deployment of Splunk"
+        tagline = "Automation for deployment of Splunk for dev environments using Terraform, Packer and AWS Cloud with a centralized Jenkins pipeline"
+
+        [[params.projects.list]]
+        title = "Splunk deployment upgradation"
+        tagline = "Automation created in Ansible for upgrading Splunk in a clustered environment in AWS Cloud."
+
+    [params.certifications]
+        enable = true
+
+        [[params.certificate.list]]
+        title = "HashiCorp Certified - Terraform Associate"
+        date = "August 2020"
+        company = "HashiCorp"
+
+        [[params.certificate.list]]
+        title = "Google Cloud Certified Associate Cloud Engineer"
+        date = "July 2020"
+        company = "Google Cloud"
+
+        [[params.certificate.list]]
+        title = "AWS Certified DevOps Engineer - Professional"
+        date = "July 2020"
+        company = "Amazon Web Services"
+
+        [[params.certificate.list]]
+        title = "Microsoft Certified: Azure Fundamentals"
+        date = "May 2020"
+        company = "Microsoft"
+
+        [[params.certificate.list]]
+        title = "Oracle Cloud Infrastructure Foundations 2020 Associate"
+        date = "April 2020"
+        company = "Oracle"
+
+        [[params.certificate.list]]
+        title = "AWS Certified SysOps Administrator - Associate"
+        date = "December 2019"
+        company = "Amazon Web Services"
+
+        [[params.certificate.list]]
+        title = "AWS Certified Developer - Associate"
+        date = "September 2019"
+        company = "Amazon Web Services"
+
+        [[params.certificate.list]]
+        title = "AWS Certified Solutions Architect - Associate"
+        date = "May 2019"
+        company = "Amazon Web Services"
+
+        [[params.certificate.list]]
+        title = "AWS Certified Cloud Practitioner"
+        date = "February 2019"
+        company = "Amazon Web Services"
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Cycling, Gymming, Travelling"
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/beingadityak"
+        title = "beingadityak"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/beingadityak"
+        title = "beingadityak"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/beingadityak_"
+        title = "@beingadityak_"
