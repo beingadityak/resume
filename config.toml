@@ -15,12 +15,12 @@ publishDir = "docs"
     [params.profile]
         enable = true
         name = "Aditya Krishnakumar"
-        tagline = "DevOps Engineer"
-        avatar = "aditya.jpg"
+        tagline = "DevOps Consultant"
+        avatar = "aditya_krishnakumar.jpeg"
 
     [params.contact]
         enable = true
-        location = "Ahmedabad, Gujarat, India"
+        location = "India"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
@@ -43,15 +43,17 @@ publishDir = "docs"
         [[params.skills.list.items]]
         details = "Python, Bash"
         [[params.skills.list.items]]
-        details = "Terraform, Packer, Docker"
+        details = "Terraform, Packer, Docker, Docker Compose"
         [[params.skills.list.items]]
         details = "Ansible, Kubernetes"
         [[params.skills.list.items]]
-        details = "TravisCI, Github Actions, Bitbucket Pipelines"
+        details = "Datadog, AWS CloudWatch, Elastic Stack (EFK), Prometheus, Grafana, Loki"
         [[params.skills.list.items]]
-        details = "EC2, S3, Lambda, API Gateway, AutoScaling, SES and many more AWS services"
+        details = "Jenkins, Azure DevOps, Github Actions, GitOps, ArgoCD, Flux"
         [[params.skills.list.items]]
-        details = "Lead and deliver complex software systems"
+        details = "AWS, Google Cloud Platform (GCP)"
+        [[params.skills.list.items]]
+        details = "Lead and deliver complex software systems, Site Reliability Engineering"
 
         [[params.skills.list]]
         title = "Professional"
@@ -100,16 +102,35 @@ publishDir = "docs"
 
     [params.summary]
         enable = true
-        text = "Experienced DevOps Engineer with a demonstrated history of working in the IT and services industry. Skilled in Scripting, AWS, Ansible, Terraform, Docker. Strong IT professional with a Bachelor’s Degree focused in Computer Engineering from Dharmsinh Desai University, Nadiad. Passionate about learning new technologies especially related to Infrastructure automation tools and DevOps processes."
+        text = "A technically savvy professional having 5+ years of experience working with emerging technologies tied to DevOps, where for the major part he has spent in simplifying automation for Small & Medium Businesses (SMBs) as well as enterprise clients. He has worked for industries such as Management Consulting, Media & Broadcasting and Technology Services. In his role as a DevOps Engineer, he orchestrates the journey of software development from commit to production. He drives performance and reliability across multiple platforms, working closely with development and QA teams to understand requirements for build, test, deploy and release processes. His experience crosses shortening and automating testing and release cycles to get it done faster."
 
     [params.experience]
         enable = true
 
         [[params.experience.list]]
         title = "DevOps Engineer"
-        dates = "May 2019 - Present"
+        dates = "Aug 2021 - Apr 2023"
+        company = "Boston Consulting Group (BCG)"
+        details = "Worked as a DevOps Engineer as well as a Site Reliability Engineer for one of the SaaS analytics platform developed for customers of Retail industry."
+        [[params.experience.list.items]]
+        details = "Worked on DevOps & SRE activities for Retail Catalyst, an analytics SaaS-based platform for retail industry."
+        [[params.experience.list.items]]
+        details = "Worked with global product development & operations team out of Chicago (US), Warsaw (Poland) and Bengaluru (India)"
+        [[params.experience.list.items]]
+        details = "Implemented DevSecOps practices by integrating Veracode in the CI/CD process, using Orca Security for any alerts and vulnerabilities in the infrastructure as well as setting up patch management for machines in the infrastructure."
+        [[params.experience.list.items]]
+        details = "Worked on achieving the SOC 2 Type 1 compliance attestation of the platform as well as setting up the foundations for the SOC 2 Type 2 compliance attestation."
+        [[params.experience.list.items]]
+        details = "Developed automation in Terraform for the supporting Virtual Machines as well as the Kubernetes clusters."
+        [[params.experience.list.items]]
+        details = "Worked on setting up monitoring platform in Datadog for the SaaS platform."
+
+
+        [[params.experience.list]]
+        title = "DevOps Engineer"
+        dates = "May 2019 - Aug 2021"
         company = "Intellimedia Networks"
-        details = "Got a field change from a T2-support CloudOps Engineer to DevOps Engineer. Performed a lot of RnD as well as support work for my internal as well as external customers. I learned a lot more from this organization about team management, project management and execution as well as improved communication skills. I was also fortunate to work with LiveU, one of the largest news broadcasting product-based firm based in US."
+        details = "Performed a lot of RnD as well as support work for my internal as well as external customers. I learned a lot more from this organization about team management, project management and execution as well as improved communication skills. I was also fortunate to work with LiveU, one of the largest news broadcasting product-based firm based in US."
         [[params.experience.list.items]]
         details = "Worked majorly on the DevOps activities in LiveU, one of the largest news broadcasting product-based firm."
         [[params.experience.list.items]]
@@ -129,9 +150,9 @@ publishDir = "docs"
 
         [[params.experience.list]]
         title = "Software Engineer"
-        dates = "Apr 2018 - May 2019"
+        dates = "Dec 2017 - May 2019"
         company = "Crest Data Systems"
-        details = "Continued with the same organization and accepted the full-time employee offer. Worked majorly on supporting Splunk Cloud, a SaaS offering by Splunk."
+        details = "Worked majorly as an SRE for Splunk Cloud, a SaaS offering by Splunk."
         [[params.experience.list.items]]
         details = "Worked majorly on maintenance and support of Splunk Cloud infrastructure."
         [[params.experience.list.items]]
@@ -152,19 +173,6 @@ publishDir = "docs"
         details = "Achieved my AWS Certified Solutions Architect & Cloud Practitioner certification along with my day-to-day work."
 
 
-        [[params.experience.list]]
-        title = "Software Intern"
-        dates = "Dec 2017 - Apr 2018"
-        company = "Crest Data Systems"
-        details = "This was my first ever software engineering job. I learned a lot about Cloud, DevOps and other tools and practices commonly used in the industry."
-        [[params.experience.list.items]]
-        details = "Created a few maintenance playbooks using Ansible for performing upgrades to a Splunk cluster deployed on an AWS environment."
-        [[params.experience.list.items]]
-        details = "Set up a stand-alone machine on AWS which is responsible for running the playbooks."
-        [[params.experience.list.items]]
-        details = "Learned more about the AWS Cloud & Ansible during this period."
-
-
     [params.projects]
         enable = true
 
@@ -173,20 +181,16 @@ publishDir = "docs"
         tagline = "Terraform code for setting up OpenDistro nodes along with backup process using multiple AWS services such as EC2, ECS, ELB etc. as well as using KMS and SOPS for secrets management."
 
         [[params.projects.list]]
-        title = "Terraform + CI/CD setup for a product"
-        tagline = "Created automation in Terraform for setting up a 3-tier application in AWS cloud as well as setting up CI/CD pipelines using GitHub Actions for the code."
-
-        [[params.projects.list]]
-        title = "CI/CD Pipelines for Node.js & PHP projects"
-        tagline = "Created CI/CD pipelines for a variety of projects for deployments to S3 & EC2 instances using TravisCI, AWS CodeDeploy & BitBucket Pipelines"
+        title = "Terraform + CI/CD + Packer setup for a SaaS product"
+        tagline = "Created automation in Terraform for setting up a 3-tier application written in Node.js in AWS cloud as well as setting up CI/CD pipelines and Packer image deployment templates using GitHub Actions for the code."
 
         [[params.projects.list]]
         title = "Automated deployment of Splunk"
         tagline = "Automation for deployment of Splunk for dev environments using Terraform, Packer and AWS Cloud with a centralized Jenkins pipeline"
 
         [[params.projects.list]]
-        title = "Splunk deployment upgradation"
-        tagline = "Automation created in Ansible for upgrading Splunk in a clustered environment in AWS Cloud."
+        title = "Splunk Cloud Migration"
+        tagline = "Worked as a part of a specialist team for migrating customer environments from legacy automation platform (Ansible + CloudFormation + Chef) to the next gen automation platform (Terraform + Puppet)"
 
     [params.certifications]
         enable = true
@@ -207,34 +211,14 @@ publishDir = "docs"
         company = "Amazon Web Services"
 
         [[params.certificate.list]]
-        title = "Microsoft Certified: Azure Fundamentals"
+        title = "AWS Certified DevOps Engineer - Professional"
+        date = "July 2020"
+        company = "Amazon Web Services"
+
+        [[params.certificate.list]]
+        title = "Microsoft Certified: Azure DevOps Engineer Expert"
         date = "May 2020"
         company = "Microsoft"
-
-        [[params.certificate.list]]
-        title = "Oracle Cloud Infrastructure Foundations 2020 Associate"
-        date = "April 2020"
-        company = "Oracle"
-
-        [[params.certificate.list]]
-        title = "AWS Certified SysOps Administrator - Associate"
-        date = "December 2019"
-        company = "Amazon Web Services"
-
-        [[params.certificate.list]]
-        title = "AWS Certified Developer - Associate"
-        date = "September 2019"
-        company = "Amazon Web Services"
-
-        [[params.certificate.list]]
-        title = "AWS Certified Solutions Architect - Associate"
-        date = "May 2019"
-        company = "Amazon Web Services"
-
-        [[params.certificate.list]]
-        title = "AWS Certified Cloud Practitioner"
-        date = "February 2019"
-        company = "Amazon Web Services"
 
     [params.information]
         enable = true
@@ -254,7 +238,3 @@ publishDir = "docs"
         icon = "fab fa-linkedin"
         url = "//linkedin.com/in/beingadityak"
         title = "beingadityak"
-        [[params.social.list]]
-        icon = "fab fa-twitter-square"
-        url = "//twitter.com/beingadityak_"
-        title = "@beingadityak_"
